@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.debug header {
+    background-color: aqua;
+    min-height: 20px;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-header {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    background-color: chartreuse;
+}
+
+header > div {
+    border: 1px dashed black;
+    padding: 2px;
+}
+
+.logo-01,
+.login {
+    flex: 25%;
+}
+.link {
+    flex: 50%;
+    text-align: center;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.login {
+    text-align: end;
+}
+
+.sec-01 {
+    height: 250px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blu {
+    width: 540px;
+    height: 200px;
+    background-color: plum;
+    border: 1px dashed black;
+}
+.sec-02,
+.sec-03,
+.sec-06 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blu-pink-01 {
+    width: 800px;
+    border: 1px dashed black;
+    display: flex;
+    height: 250px;
+}
+.blu-sec-2 {
+    background-color: blue;
+    width: 65%;
+}
+.pink-sec-2 {
+    background-color: pink;
+    width: 35%;
+    border-left: 1px dashed black;
+}
+
+.sec-03,
+.sec-05 {
+    background-color: lightgray;
+}
+
+.sec-05 {
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green {
+    background-color: green;
+    height: 500px;
+    width: 800px;
+    border: 1px dashed black;
+}
+
+.sec-06 {
+    background-color: black;
+}
+.blu-pink-06 {
+    width: 800px;
+    height: 290px;
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.blu-pink-06 > div {
+    border: 1px dashed white;
+}
+.flex-1 {
+    flex: 1;
+    background-color: rgb(107, 211, 211);
+}
+.sect-pink {
+    flex: 2;
+    background-color: pink;
+}
+
+hr {
+    border: 1px solid white;
+}
+footer {
+    background-color: black;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-final {
+    width: 800px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-top: 16px;
+}
